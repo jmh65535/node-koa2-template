@@ -1,5 +1,6 @@
 # koa2+koa-generator+mysql快速搭建nodejs服务器
 > 用koa的脚手架koa-generator可以快速生成项目骨架,可以用于发开或者测试接口
+> https://github.com/hellojinjin123/node-koa2-template
 ## 1. 全局安装koa-generator(不用全局安装koa)
 项目名字fast-koa
 ```cmd
