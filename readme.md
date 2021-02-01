@@ -334,10 +334,10 @@ app.use(admin.routes(), admin.allowedMethods())
 比如请求 http://localhost:3000/admin/getAllAdmins
 
 koa经历的简单过程:
-浏览器发出请求 -> 中间件 ->路由中间件 -> 中间件 -> 中间件若干回调 -> 浏览器收到响应
-路由: 
-`router.get/post` -> `controllers.func` -> `models.func`-> mysql
-     请求行为      ->       业务逻辑     ->   模型支持   ->  入库
+1. 浏览器发出请求 -> 中间件 ->路由中间件 -> 中间件 -> 中间件若干回调 -> 浏览器收到响应
+2. 路由: 
+- `router.get/post` -> `controllers.func` -> `models.func`-> mysql
+-      请求行为      ->       业务逻辑     ->   模型支持   ->  入库
 
 ## 9. 配置自定义的中间件处理日志和response消息
 可以参考github代码
